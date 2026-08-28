@@ -10,7 +10,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 1em;
 }
 
 :root {
@@ -20,9 +19,10 @@
 }
 
 header {
-    background-image: linear-gradient(to bottom, black 50%, rgba(54, 11, 104, 0.849));
+    background-image: linear-gradient(to right, black 72%, rgba(54, 11, 104, 0.849));
     text-align: center;
     color: white;
+    padding-top: 20px;
 }
 
 header > h1 {
@@ -43,6 +43,10 @@ header a, footer a {
     font-weight: bolder;
 }
 
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -51,7 +55,7 @@ section.normal {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 1.4em;
+    line-height: 2em;
     padding-left: 20px;
     font-family: var(--fonte3);
     font-size: 2.5vw;

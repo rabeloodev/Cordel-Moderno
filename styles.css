@@ -29,7 +29,7 @@ header > h1 {
     padding-top: 20px;
     font-variant: small-caps;
     font-family: var(--fonte1);
-    font-size: 4vh;
+    font-size: 10vw;
 }
 
 header > p{
